@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.dmko.conferencemanagementsystem"
+        minSdkVersion 18
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation libs.support_appcompat
+    implementation libs.support_recycler
+    implementation libs.support_constraint_layout
+    implementation libs.support_design
+    implementation libs.support_card_view
+    implementation libs.paging
+    implementation libs.paging_rx
+    implementation libs.expandable_recyclerview
+    testImplementation libs.junit
+    androidTestImplementation libs.test_runner
+    androidTestImplementation libs.espresso_core
+    implementation libs.butterknife
+    annotationProcessor libs.butterknife_ap
+    implementation libs.dagger
+    implementation libs.dagger_android
+    annotationProcessor libs.dagger_ap
+    implementation libs.rx_java
+    implementation libs.rx_java_android
+    implementation libs.rx_binding
+    implementation libs.retrofit
+    implementation libs.retrofit_gson_converter
+    implementation libs.retrofit_rx_adapter
+    implementation libs.room
+    annotationProcessor libs.room_ap
+    implementation libs.room_rx
+    implementation libs.timber
+    implementation libs.jjwt
+    implementation libs.stetho
+    implementation libs.stetho_network
+    implementation libs.chips
+}

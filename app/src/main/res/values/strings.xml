@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Conference Management System</string>
+    <string name="item_all_conferences">Все конференции</string>
+    <string name="item_conference_requests">Заявки на создание конференции</string>
+    <string name="item_sign_in">Войти</string>
+    <string name="item_sign_up">Зарегистрироваться</string>
+    <string name="item_sign_out">Выйти</string>
+    <string name="item_information">Информация</string>
+    <string name="item_submissions">Доклады</string>
+    <string name="item_participants">Участники</string>
+
+    <string name="guest">Гость</string>
+    <string name="role_submitter">Докладчик</string>
+    <string name="role_admin">Администратор</string>
+    <string name="role_creator">Создатель</string>
+    <string name="role_reviewer">Рецензент</string>
+
+    <string name="error_empty_password">Введите пароль</string>
+    <string name="error_empty_email">Введите email</string>
+    <string name="error_incorrect_email">Неправильный email</string>
+    <string name="error_incorrect_email_or_password">Неправильный email или пароль</string>
+    <string name="error_empty_first_name">Введите имя</string>
+    <string name="error_empty_last_name">Введите фамилию</string>
+    <string name="error_empty_password_confirm">Повторите пароль</string>
+    <string name="error_first_name_contains_spaces">Имя не может содержать пробелов</string>
+    <string name="error_last_name_contains_spaces">Фамилия не может содержать пробелов</string>
+    <string name="error_passwords_do_not_match">Пароли не совпадают</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_first_name">Имя</string>
+    <string name="hint_second_name">Фамилия</string>
+    <string name="hint_password_confirm">Повторите пароль</string>
+    <string name="hint_conference_title">Полное название</string>
+    <string name="hint_conference_acronym">Короткое название</string>
+    <string name="hint_conference_web_page">Веб-страница</string>
+    <string name="hint_conference_country">Страна</string>
+    <string name="hint_conference_city">Город</string>
+
+    <string name="allowed_characters_name">йцукенгшщзхъфывапролджэячсмитьбюёЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁ</string>
+    <string name="title_authors">Авторы:</string>
+    <string name="title_reviewers">Рецензенты:</string>
+    <string name="hint_status">Статус:</string>
+    <string name="hint_save">Сохранить</string>
+    <string name="hint_cancel">Отменить</string>
+    <string name="title_commentaries">Комментарии:</string>
+    <string name="button_send">Отправить</string>
+    <string name="button_send_disabled">Заявка отправлена</string>
+    <string name="button_evaluate">Оценить</string>
+    <string name="hint_submission_title">Название</string>
+    <string name="hint_submission_status">Статус</string>
+    <string name="title_documents">Документы</string>
+    <string name="status_submission_pending">В процессе</string>
+    <string name="status_submission_accept">Принят</string>
+    <string name="status_submission_reject">Отклонен</string>
+    <string name="button_request_review">Запросить рецензию</string>
+    <string name="button_request_review_disabled">Рецензия запрошена</string>
+    <string name="button_open">Открыть</string>
+    <string name="button_add_review">рецензия</string>
+    <string name="error_unknown">Произошла неизвестная ошибка</string>
+    <string name="title_conferences">Текущие конференции</string>
+    <string name="title_conference_requests">Заявки</string>
+
+    <string-array name="review_statuses">
+        <item name="reject">Отклонить</item>
+        <item name="probably_reject">Возможно отклонить</item>
+        <item name="no_decision">Без решения</item>
+        <item name="probably_accept">Возможно принять</item>
+        <item name="accept">Принять</item>
+    </string-array>
+
+    <string-array name="comment_statuses">
+        <item name="reject">Отклонить</item>
+        <item name="accept">Принять</item>
+    </string-array>
+
+    <string-array name="filter_roles">
+        <item name="all">Все участники</item>
+        <item name="admins">Администраторы</item>
+        <item name="reviewers">Рецензенты</item>
+    </string-array>
+
+    <string-array name="filter_submissions">
+        <item name="all">Все доклады</item>
+        <item name="user_submissions">Мои доклады</item>
+        <item name="reviewer_submissions">Доклады для рецензии</item>
+    </string-array>
+</resources>
+
+
